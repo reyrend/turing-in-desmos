@@ -16,4 +16,5 @@ for i in range(1, n+1):
     out += "d_"+str(i)+"= \\left\\{m_i_n_f[t+d_o_f_f_s_e_t]=0: "+d0 +",\\left\\{m_i_n_f[t+d_o_f_f_s_e_t]=1:"+d1+","+d2+"\\right\\}\\right\\}\n"
     out += "c_"+str(i)+"=\\left\\{b_c_u_r ="+str(i)+":d_"+str(i)+",c_"+str(i+1) +"\\right\\}\n"
 #out += "c_c_o_l_r_s=[",",".join("rgb("+j+")" for j in c), "]"
+out+= "c_"+str(n+1)+"= b_i_s_s_t_a_r_t \\to 0"
 print(out)
